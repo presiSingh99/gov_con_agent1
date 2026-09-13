@@ -1,0 +1,22 @@
+# Replace every example criterion below with your company's actual values.
+company_name: Example Company - EDIT ME
+
+minimum_days_until_due: 14
+maximum_days_until_due: 365
+
+target_naics:
+  - "541511"
+  - "541512"
+  - "541519"
+
+# Use the exact SAM.gov typeOfSetAside codes for which your company is eligible.
+eligible_set_asides:
+  - code: "SBA"
+    description: "Total Small Business Set-Aside"
+
+# When true, an opportunity with neither a set-aside code nor description passes.
+allow_unrestricted: false
+
+target_departments:
+  - "Department of Health and Human Services"
+target_agencies: []
